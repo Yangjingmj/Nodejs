@@ -1,0 +1,126 @@
+body,span,ul,li,div{margin: 0px;padding: 0px;}
+.clear:after,
+.clear:before {
+  content: "";
+  display: table;
+}
+.clear:after {
+  clear: both;
+}
+.clear {
+  *zoom: 1;
+}
+header {
+  height: 222px;
+  position: relative;
+  overflow: hidden;
+}
+
+header .backimg
+{
+   display: flex;
+     width: 100%;
+     height: 100%; 
+}
+header .backimg img
+{  
+  margin: auto;
+  display: block;
+}
+header .logo
+{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 5;
+  text-align: center;
+}
+header .logo span {
+  height: 100%;
+  display: inline-block;
+  vertical-align: middle;
+}
+header .logo img
+{
+  display: inline-block;
+  vertical-align: middle;
+}
+main {
+  width: 1140px;
+  margin: 35px auto 0px;
+}
+main .mainRight {
+  width: 360px;
+  float: right;
+}
+main .mainRight .rightBox {
+  background: #fff;
+  padding: 16px 30px;
+  margin-bottom: 30px;
+}
+main .mainRight .rightBox .title {
+  border-bottom: 1px solid #ebebeb;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+main .mainRight .rightBox .title span {
+  display: inline-block;
+  margin-bottom: -1px;
+  height: 36px;
+  line-height: 36px;
+  border-bottom: 1px solid #e67e22;
+  padding: 0px 20px 0px 0px;
+}
+main .mainRight .rightBox button {
+  background: #e67e22;
+  width: 100%;
+  height: 34px;
+  cursor: pointer;
+  border-radius: 3px;
+  color: #fff;
+  font-size: 12px;
+  font-family: '微软雅黑';
+}
+main .mainRight .rightBox .line {
+  margin-bottom: 10px;
+  position: relative;
+}
+main .mainRight .rightBox .line.error em {
+  width: 20px;
+  height: 20px;
+  display: block;
+  position: absolute;
+  top: 8px;
+  right: 25px;
+  cursor: pointer;
+  background: url(../images/close.png) no-repeat center center;
+  background-size: 80% 80%;
+}
+main .mainRight .rightBox .line span {
+  width: 60px;
+  display: inline-block;
+  text-align: right;
+}
+main .mainRight .rightBox .line input {
+  width: 210px;
+  height: 34px;
+  line-height: 34px;
+  border: 1px solid #ddd;
+  background: none;
+  padding: 0px 5px;
+}
+main .mainRight .rightBox .line button {
+  background: #e67e22;
+  width: 222px;
+  height: 34px;
+  cursor: pointer;
+  border-radius: 3px;
+  color: #fff;
+  font-size: 12px;
+  font-family: '微软雅黑';
+}
+main .mainRight .rightBox .line em {
+  display: none;
+}
